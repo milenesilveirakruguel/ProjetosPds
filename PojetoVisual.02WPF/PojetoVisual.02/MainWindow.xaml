@@ -1,0 +1,23 @@
+﻿<Window x:Class="PojetoVisual._02.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PojetoVisual._02"
+        mc:Ignorable="d"
+        Title="Menu" Height="450" Width="800">
+    <Grid Background="#FF65DCD9">
+        <Label Content="MENU" HorizontalAlignment="Left" Margin="354,61,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="36" Width="102" FontWeight="Bold" FontFamily="Arial" FontSize="24">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.766"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Button Content="CADASTRAR" HorizontalAlignment="Left" VerticalAlignment="Top" Height="52" Width="187" FontWeight="Bold" FontFamily="Arial" FontSize="20" Click="btCadastrar_Click" Margin="295,165,0,0" Background="#FFFCFEFF" AutomationProperties.Name="btCadastro"/>
+        <Button Content="LISTAR" HorizontalAlignment="Left" Margin="295,298,0,0" VerticalAlignment="Top" Height="51" Width="188" FontFamily="Arial" FontSize="20" Click="btListar_Click" FontWeight="Bold" Background="#FFFCFEFF" AutomationProperties.Name="btListar"/>
+    </Grid>
+</Window>
